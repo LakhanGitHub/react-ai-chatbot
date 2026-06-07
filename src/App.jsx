@@ -2,7 +2,7 @@ import './App.css'
 import { useState, useEffect, useRef } from 'react'
 //import { URL, API_KEY } from './constants';
 
-import RecentSearch from './components/recentSearch';
+import RecentSearch from './components/RecentSearch';
 import QuestionAnswer from './components/QuestionAnswer';
 
 function App() {  
