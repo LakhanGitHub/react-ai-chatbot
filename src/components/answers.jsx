@@ -88,7 +88,7 @@ const Answer = ({ ans, totalResult, index }) => {
       /* Inline Code styling for standard embedded text snippets like `const x = 5` */
       <code 
         {...props} 
-        className={`${className} bg-zinc-800 text-pink-400 px-1.5 py-0.5 rounded font-mono text-xs border border-zinc-700`}
+        className="bg-zinc-800/40 text-zinc-300 dark:bg-zinc-700/30 dark:text-zinc-200 px-1.5 py-0.5 mx-0.5 rounded-md font-mono text-[13px] font-normal border border-zinc-700/30 tracking-wide"
       >
         {children}
       </code>
